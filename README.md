@@ -7,5 +7,5 @@ Remember, BSD license. Give credit to me using `Github/KiaWeb`.
 - Simply `import pinfo`.
 - Type `pinfo.infocreate(name, author, date, version, filename)`. Make sure `filename` does not have an extension, pinfo only searches for .pinfo files.
 - OR, you can type `pinfo.setup()`, and it'll ask you.
-# WARNING: Do NOT type `pinfo.start_main(fn)` or else it won't put info inside. Just `pinfo.setup()` and `pinfo.infocreate()`.
+# WARNING: Do NOT type `pinfo.start_main(fn)` or else it won't put info inside. Just `pinfo.setup()` and `pinfo.infocreate()`. But, you can use `pinfo.info.author`, etc, but only if either `pinfo.infocreate()` or `pinfo.setup()` is done.
 - Kia
