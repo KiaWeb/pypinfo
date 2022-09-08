@@ -7,7 +7,7 @@ class info:
     version = ''
     desc = ''
 def start_main(fn):
-    if os.path.isfile(fn+".pinfo") == True:
+    if os.path.isfile(fn+".pinfo"):
         print('Warning: '+fn+".pinfo already exists. 5 seconds to run, or close program.")
         time.sleep(5)
         infofile = open(fn+".pinfo","w")
